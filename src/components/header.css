@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+.city{
+
+    justify-content: center;
+    /* width: 83rem; */
+    margin-left: 5.5rem;
+    position: relative;
+    display: flex;
+    margin-top: -41rem;
+    color: aliceblue;
+    /* border: 2px solid white; */
+
+}
+
+.city-btn{
+
+    font-family: 'Afacad', sans-serif;
+    font-size: 33px;
+    width: 90px;
+    height: 50px;
+    cursor: pointer;
+    background: none;
+    color: rgb(228 228 228);
+    border: none;
+    margin-left: 94px;
+    margin-right: 41px;
+    text-decoration: none;
+ /* Initially, set the width to zero */
+
+    
+}
+.city-btn:hover{
+color: rgb(145, 235, 255);
+}

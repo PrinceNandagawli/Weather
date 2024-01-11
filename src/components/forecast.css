@@ -1,0 +1,150 @@
+.hourly{
+    width: 544px;
+    height: 51px;
+    position: relative;
+    margin-left: 13%;
+    margin-top: -14px;
+    font-size: 31px;
+}
+
+.hourly p{
+    text-transform: uppercase;
+    position: relative;
+    color: white;
+    margin-left: 138px;
+    font-weight: 700;
+}
+
+.hourly hr{
+    margin-top: -20px;
+}
+
+
+.line-seprate{
+    position: absolute;
+    width: 0px;
+    height: 280px;
+    color: white;
+    margin-top: -35px;
+    margin-left: 51.8%;
+    border: 1px solid white;
+}
+
+
+
+
+.daily{
+    width: 34%;
+    height: 50px;
+    position: relative;
+    margin-left: 55%;
+    margin-top: -82px;
+    font-size: 31px;
+}
+
+.daily p{
+    text-transform: uppercase;
+    position: relative;
+    color: white;
+    margin-left: 30%;
+    font-weight: 700;
+}
+
+.daily hr{
+    margin-top: -20px;
+}
+
+.hourly-pred{
+    margin-left: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 103%;
+    height: 14rem;
+    /* border: 2px solid white; */
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
+
+.hourly-all{
+    margin-bottom: 16px;
+    margin-right: 27px;
+    width: 15%;
+    height: 44%;
+    /* border: 2px solid white; */
+    overflow-wrap: break-word;
+    
+}
+.hourly-all .hourly-time{
+    font-size: 18px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.hourly-all .hourly-img{
+    position: absolute;
+    width: 53px;
+    height: 62px;
+    /* font-size: 18px; */
+    margin-left: 1.5%;
+    margin-top: -4.5%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.hourly-all .hourly-degree{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 4%;
+    margin-top: 6%;
+
+}
+
+
+.daily-pred{
+    margin-left: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 103%;
+    height: 14rem;
+    /* border: 2px solid white; */
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
+
+.daily-all{
+    margin-bottom: 16px;
+    margin-right: 24px;
+    width: 15%;
+    height: 44%;
+    /* border: 2px solid white; */
+    overflow-wrap: break-word;
+    
+}
+.daily-all .daily-time{
+    font-size: 18px;
+    margin-left: 24%;
+    margin-top: 1%;
+}
+.daily-all .daily-img{
+    position: absolute;
+    width: 53px;
+    height: 62px;
+    /* font-size: 18px; */
+    margin-left: 1.5%;
+    margin-top: -4.5%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.daily-all .daily-degree{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 4%;
+    margin-top: 6%;
+
+}

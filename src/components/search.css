@@ -1,0 +1,111 @@
+.search{
+  position: relative;
+  /* width: 50%; */
+  height: 300px;
+  /* border: 2px solid white; */
+  margin-left: 22.5%;
+  margin-top: 3rem;
+}
+
+.search-bar{
+    width: 489px;
+    height: 32px;
+    background-color: #ebebeb;
+    border-radius: 23px;
+}
+
+.search-input {
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    font-size: 17px;
+    background: transparent;
+    color: #101010;
+    outline: none;
+    margin-top: 1px;
+    margin-left: 11px;
+    text-transform: capitalize;
+    position: absolute;  
+      
+}
+.search-input::placeholder {
+
+    text-transform:lowercase;   
+      
+}
+  #clear{
+    font-size: 20px;
+    margin-left: 445px;
+    color: #454545;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 3px;
+  }
+
+  #clear:hover{
+    color: #202020;
+  }
+
+  #clear1{
+
+    margin-left: 32rem;
+    color: #fbfbfb;
+    cursor: pointer;
+    position: relative;
+    margin-top: -2px;
+    width: 32px;
+    height: 32px;
+    transition: ease-out;
+  }
+
+  #clear1:hover{
+    color: #ff1c1c;
+    scale: 1.2;
+  }
+
+  .temp-degree{
+    width: 183px;
+    height: 32px;
+    position: relative;
+    display: flex;
+    /* border: 2px solid beige; */
+    margin-left: 37rem;
+    margin-top: -36px;
+
+  }
+
+  .temp-degree .cel{
+    width: 55px;
+    height: 37px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    
+  }
+  .temp-degree .mid{
+    font-size: 37px;
+    margin-top: -11px;
+    color: white;
+    margin-left: 0px;
+  }
+  .temp-degree .far{
+    margin-left: -3px;
+    width: 55px;
+    height: 37px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .temp-degree .far:hover{
+    color: aqua;
+  }
+  .temp-degree .cel:hover{
+    color: aqua;
+  }
+
+ 

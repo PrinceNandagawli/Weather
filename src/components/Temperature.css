@@ -1,0 +1,120 @@
+
+
+.degree{
+  margin-top: -100px;
+  /* border: 2px solid wheat; */
+  position: relative;
+}
+.degree p{
+  color: white;
+  margin-top: -4px;
+  margin-left: 47%;
+  font-size: 37px;
+}
+
+
+
+.icon-weather{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 52%;
+  margin-top: -70px;
+  position: absolute;
+
+
+}
+  #sun{
+    font-size: 26px;
+    width: 70px;
+    height: 70px;
+    margin-right: 7px;
+    margin-top: -24px;
+
+  }
+  #type{
+    font-size: 29px;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: -9px;
+    color: white;
+    font-weight: 500;
+  }
+
+
+  .temp{
+    display: block;
+    position: relative;
+    margin-top: -289px;
+    /* border: 2px solid white; */
+    margin-left: 74%;
+    position: absolute;
+    text-wrap: nowrap;
+
+
+}
+
+.tempicon{
+  position: relative;
+  color: rgb(248, 248, 248);
+  width: 20px;
+  height: 20px;
+} 
+
+.temp .words{
+  margin-top: -29px;
+  margin-left: 31px;
+  font-weight: 400;
+  color: white;
+  font-size: 22px;
+}
+.temp .number{
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 132px;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+
+}
+.temp .number1{
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 133px;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+
+}
+.temp .number2{
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 159px;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  text-wrap: nowrap;
+
+}
+.temp .number3{
+  position: absolute;
+  margin-top: -46px;
+  margin-left: 127px;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  text-wrap: nowrap;
+
+}
+.temp .number4{
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 157px;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  text-wrap: nowrap;
+
+}
+
