@@ -22,7 +22,7 @@ const Header = ({setQuery}) => {
         },
         {
         id:5,
-        title:"Delhi"
+        title:"Indore"
         },
     ]
 
